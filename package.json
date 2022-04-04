@@ -11,9 +11,13 @@
     "cdk": "cdk"
   },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.93",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
     "aws-cdk": "2.15.0",
+    "aws-cdk-lib": "^2.18.0",
+    "aws-sdk": "^2.1103.0",
+    "constructs": "^10.0.99",
     "esbuild": "^0.14.28",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
@@ -21,8 +25,26 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.15.0",
-    "constructs": "^10.0.0",
-    "source-map-support": "^0.5.16"
-  }
+    "@types/uuid": "^8.3.4",
+    "amazon-cognito-identity-js": "^5.2.8",
+    "source-map-support": "^0.5.16",
+    "uuid": "^8.3.2"
+  },
+  "description": "This is a blank project for TypeScript development with CDK.",
+  "main": "jest.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smucon-dev/serverless-chat-app-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smucon-dev/serverless-chat-app-backend/issues"
+  },
+  "homepage": "https://github.com/smucon-dev/serverless-chat-app-backend#readme"
 }
